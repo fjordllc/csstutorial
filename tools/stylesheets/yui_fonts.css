@@ -1,0 +1,29 @@
+/* Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+ * Code licensed under the BSD License:
+ * http://developer.yahoo.com/font-size/license.html
+ * version: 3.3.0
+ * build: 3167 */
+/* line 8, ../sass/yui_fonts.sass */
+body {
+  font: 13px/1.231 arial, helvetica, clean, sans-serif;
+  *font-size: small;
+  *font: x-small;
+}
+
+/* line 13, ../sass/yui_fonts.sass */
+select, input, button, textarea {
+  font: 99% arial, helvetica, clean, sans-serif;
+}
+
+/* line 16, ../sass/yui_fonts.sass */
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* line 20, ../sass/yui_fonts.sass */
+pre, code, kbd, samp, tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
