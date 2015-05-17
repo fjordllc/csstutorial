@@ -1,289 +1,225 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <title>CSS課題</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="stylesheets/application.css">
+    <title>CSSの練習</title>
   </head>
   <body>
-    <div id="wrap">
-      <header id="header">
-        <h1>サイトのタイトルあああああああ</h1>
-        <nav id="global">
-          <ul>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-          </ul>
-        </nav>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__title">サイトタイトル</h1>
       </header>
-      <div id="about">
-        <ol>
-          <li>
-            <h2>これは</h2>
-            <p>
-              あああああああああああああああああああああああああああああああああああああああああああああああ<br>あああああああああああああああああああああああああああああああああああああああああああああああ
-            </p>
-          </li>
-          <li>
-            <h2>CSSの</h2>
-            <p>
-              あああああああああああああああああああああああああああああああああああああああああああああああ<br>あああああああああああああああああああああああああああああああああああああああああああああああ
-            </p>
-          </li>
-          <li>
-            <h2>練習です</h2>
-            <p>
-              あああああああああああああああああああああああああああああああああああああああああああああああ<br>あああああああああああああああああああああああああああああああああああああああああああああああ
-            </p>
-          </li>
+      <nav class="global-nav">
+        <ul class="global-nav__items">
+          <li class="global-nav__item"><a href="#" class="global-nav__link">ナビゲーション</a></li>
+          <li class="global-nav__item"><a href="#" class="global-nav__link">ナビゲーション</a></li>
+          <li class="global-nav__item"><a href="#" class="global-nav__link is-current">ナビゲーション</a></li>
+          <li class="global-nav__item"><a href="#" class="global-nav__link">ナビゲーション</a></li>
+          <li class="global-nav__item"><a href="#" class="global-nav__link">ナビゲーション</a></li>
+        </ul>
+      </nav>
+      <nav class="bread-crumbs">
+        <ol class="bread-crumbs__items">
+          <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Home</a></li>
+          <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Category</a></li>
+          <li class="bread-crumbs__item is-current"><a href="#" class="bread-crumbs__link">ページタイトル</a></li>
         </ol>
+      </nav>
+      <div class="top-ads">
+        <ul class="top-ads__items">
+            <li class="top-ads__item"><a href="" class="top-ads__link"><img src="images/ad-0.png" class="top-ads__image"></a></li>
+            <li class="top-ads__item"><a href="" class="top-ads__link"><img src="images/ad-0.png" class="top-ads__image"></a></li>
+            <li class="top-ads__item"><a href="" class="top-ads__link"><img src="images/ad-0.png" class="top-ads__image"></a></li>
+        </ul>
       </div>
-      <div id="body">
-        <div id="main">
-          <div class="breadcrumbs">
-            <ol>
-              <li>
-                <a href="">Home</a>
-              </li>
-              <li>
-                <a href="">出来事</a>
-              </li>
-              <li class="current">
-                <strong>一昨日から今日までの出来事のまとめ</strong>
-              </li>
+      <div class="body">
+        <main class="main">
+          <header class="main-header">
+            <h2 class="main-header__title">ページタイトル</h2>
+          </header>
+          <article class="article">
+            <h3 class="article__title">記事タイトル</h3>
+            <p class="article__paragraph">段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に<strong class="article__strong">表裏院は</strong>しばしばその努力なですなりがするてじまいたとは把持落ちましますて、始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっして<a href="#" class="article__link">リンクリンクリンクリンクリンクリンク</a>お忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+            <p class="article__paragraph">段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に<strong class="article__strong">表裏院は</strong>しばしばその努力なですなりがするてじまいたとは把持落ちましますて、始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっしてお忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+          <h4 class="article__sub-title">記事見出し</h4>
+            <p class="article__paragraph">段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に表裏院はしばしばその努力なですなりがするてじまいたとは把持落ちましますて、始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっしてお忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+            <ul class="article__unorder-list">
+              <li class="article__unorder-list-item">番号なしリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__unorder-list-item">番号なしリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__unorder-list-item">番号なしリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__unorder-list-item">番号なしリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__unorder-list-item">番号なしリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+            </ul>
+            <blockquote class="article__blockquote">
+              <p class="article__blockquote-paragraph">引用文内 段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に表裏院はしばしばその努力なですなりがするてじまいたとは把持落ちましますて、始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっしてお忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+              <p class="article__blockquote-paragraph">引用文内 段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に表裏院はしばしばその努力なですなりがするてじまいたとは把持落ちましますて、始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっしてお忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+            </blockquote>
+            <p class="article__paragraph">段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に表裏院はしばしばその努力なですなりがするてじまいたとは把持落ちましますて、<a href="#" class="article__link">リンク</a>始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっしてお忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+            <img src="images/sample-image.jpg" class="article__image">
+            <h5 class="article__sub-sub-title">小見出し</h5>
+            <p class="article__paragraph">段落 何はほかちっともある比較がかりというのの上で釣っなで。現に場合に表裏院はしばしばその努力なですなりがするてじまいたとは把持落ちましますて、始終には拵えでですましざる。必然に妨げです事はけっして今日に同時にでならな。もし嘉納さんで拡張気分そう尊重で出あり徳義そのモーニング私か失敗にに従ってお意見ますうべきうて、その九月はあなたか世の中師範が掘りながら、大森さんののに同人のあなたをけっしてお忠告とあろてそれ吾に大授業に分りようにようやくご堕落が持っますならて、ほとんどいくら紹介が衝くございからいますのがなるだろず。</p>
+            <ol class="article__order-list">
+              <li class="article__order-list-item">番号ありリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__order-list-item">番号ありリスト 何はほかちっともある比較がかりというのの上で釣っなで。 </li>
+              <li class="article__order-list-item">番号ありリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__order-list-item">番号ありリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
+              <li class="article__order-list-item">番号ありリスト 何はほかちっともある比較がかりというのの上で釣っなで。</li>
             </ol>
-          </div>
-          <div id="articles">
-            <h2>日々の出来事のまとめ</h2>
-            <article>
-              <header>
-                <h3>今日の出来事</h3>
-                <span class="date">2012年8月6日（月）</span>
-              </header>
-              <div class="body">
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                <h4>見出しああああああああああああああああああ</h4>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                <ul>
-                  <li>リストああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
+          </article>
+          <div class="form">
+            <h3 class="form__title">お問い合わせ</h3>
+            <div class="form-item">
+              <label class="form-item__label">テキスト入力欄</label>
+              <input type="text" name="example1" value="テキスト入力欄" class="form-item__text-input">
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">パスワード入力欄</label>
+              <input type="password" name="example2" value="password" class="form-item__text-input is-password">
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">複数行の入力欄</label>
+              <textarea name="example3" class="form-item__textarea"></textarea>
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">ラジオボタン</label>
+              <ul class="form-item__inline-items">
+                <li class="form-item__inline-item">
+                  <label class="form-item__radio">
+                    <input type="radio" name="example4" value="val1" checked="checked" class="form-item__radio-input">その1
+                  </label>
+                </li>
+                <li class="form-item__inline-item">
+                  <label class="form-item__radio">
+                    <input type="radio" name="example4" value="val2" class="form-item__radio-input">その2
+                  </label>
+                </li>
+                <li class="form-item__inline-item">
+                  <label class="form-item__radio">
+                    <input type="radio" name="example4" value="val3" class="form-item__radio-input">その3
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">チェックボックス</label>
+              <ul class="form-item__inline-items">
+                <li class="form-item__inline-item">
+                  <label class="form-item__checkbox">
+                    <input type="checkbox" name="example5" value="val1" checked="checked" class="form-item__checkbox-input">その1
+                  </label>
+                </li>
+                <li class="form-item__inline-item">
+                  <label class="form-item__checkbox">
+                    <input type="checkbox" name="example5" value="val2" class="form-item__checkbox-input">その2
+                  </label>
+                </li>
+                <li class="form-item__inline-item">
+                  <label class="form-item__checkbox">
+                    <input type="checkbox" name="example5" value="val3" class="form-item__checkbox-input">その3
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">プルダウン セレクト</label>
+              <select name="example6" class="form-item__select-pull-down">
+                <option value="val1">セレクトAその1</option>
+                <option value="val2">セレクトAその2</option>
+                <option value="val3">セレクトAその3</option>
+                <option value="val4">セレクトAその4</option>
+                <option value="val5">セレクトAその5</option>
+              </select>
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">リスト セレクト</label>
+              <select name="example7" size="5" class="form-item__select-list">
+                <option value="val1" class="form-item__select-list-option">セレクトBその1</option>
+                <option value="val2" class="form-item__select-list-option">セレクトBその2</option>
+                <option value="val3" class="form-item__select-list-option">セレクトBその3</option>
+                <option value="val4" class="form-item__select-list-option">セレクトBその4</option>
+                <option value="val5" class="form-item__select-list-option">セレクトBその5</option>
+              </select>
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">ファイル選択</label>
+              <input type="file" name="example8" class="form-item__file">
+            </div>
+            <div class="form-item">
+              <label class="form-item__label">ボタン</label>
+              <div class="form-item__actions">
+                <ul class="form-item__actions-items">
+                  <li class="form-item__actions-item"><input type="submit" value="送信する" class="form-item__action is-submit"></li>
+                  <li class="form-item__actions-item"><input type="reset" value="リセット" class="form-item__action is-reset"></li>
                 </ul>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                <table>
-                  <tr>
-                    <th>Aさん</th>
-                    <th>Bさん</th>
-                    <th>Cさん</th>
-                  </tr>
-                  <tr>
-                    <td>テーブルです。あああああああああああ</td>
-                    <td>いいいいいいいいいいいいいいいいいいいいいいいい</td>
-                    <td>ううううううううううううううううううう</td>
-                  </tr>
-                  <tr>
-                    <td>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</td>
-                    <td>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</td>
-                    <td>あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</td>
-                  </tr>
-                </table>
-                <p>
-                  ああああああ<strong>強調あああああああああ</strong>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ<a href="http://kowabana.jp">怖い話へのリンクあああああああああああ</a>ああああああ
-                </p>
-                <blockquote cite="http://google.com">
-                  <p>引用文あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                  <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                </blockquote>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                <h5>中見出しああああああああああああああああああ</h5>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
-                <ol>
-                  <li>番号付きリスト。ああああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
-                  <li>ああああああああああああああああああああああああああああああああああああああああ</li>
-                </ol>
-                <h6>小見出しああああああああああああああああああ</h6>
-                <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
               </div>
-            <footer>
-              <dl>
-                <dt>この記事の作者</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </footer>
-            </article>
+            </div>
           </div>
-          <aside id="comments">
-          <h3>最新のコメント</h3>
-          <ul>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-            <li>
-              <p>ああああああああああああああああああああああああああああああああああああああああ</p>
-              <dl>
-                <dt>コメントした人</dt>
-                <dd>あああああ ああああああ さん</dd>
-              </dl>
-            </li>
-          </ul>
-          </aside>
-        </div>
-        <div id="sub">
-          <aside class="ad">
-            <p>広告枠</p>
-          </aside>
-          <nav id="local">
-          <ul>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-          </ul>
+        </main>
+        <aside class="aside">
+          <div class="aside-ads">
+            <ul class="aside-ads__items">
+              <li class="aside-ads__item"><a href="" class="aside-ads__link"><img src="images/ad-1.png" class="aside-ads__image"></a></li>
+              <li class="aside-ads__item"><a href="" class="aside-ads__link"><img src="images/ad-2.png" class="aside-ads__image"></a></li>
+              <li class="aside-ads__item"><a href="" class="aside-ads__link"><img src="images/ad-3.png" class="aside-ads__image"></a></li>
+            </ul>
+          </div>
+          <nav class="local-nav">
+            <ul class="local-nav__items">
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link is-current">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+              <li class="local-nav__item"><a href="#" class="local-nav__link">ローカルナビ</a></li>
+            </ul>
           </nav>
-          <aside class="banners">
-          <ul>
-            <li>
-              <a href="">バナー</a>
-            </li>
-            <li>
-              <a href="">バナー</a>
-            </li>
-            <li>
-              <a href="">バナー</a>
-            </li>
-          </ul>
-          </aside>
-        </div>
+        </aside>
       </div>
-      <footer id="footer">
-        <nav>
-          <ul>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
-            <li>
-              <a href="">ナビゲーション</a>
-            </li>
+      <footer class="footer">
+        <nav class="footer-nav">
+          <ul class="footer-nav__items">
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
           </ul>
-          <p class="copyright">Copyright © 2012 社名等 Inc. All rights reserved.</p>
+          <ul class="footer-nav__items">
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+          </ul>
+          <ul class="footer-nav__items">
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+            <li class="footer-nav__item"><a href="" class="footer-nav__link">フッターナビ</a></li>
+          </ul>
         </nav>
+        <section class="about-author">
+          <h2 class="about-author__title">このサイトの作者</h2>
+          <img src="images/sample-face.jpg" class="about-author__image">
+          <dl class="about-author__descriptions">
+            <dt class="about-author__term">名前</dt>
+            <dd class="about-author__description">私の名前</dd>
+            <dt class="about-author__term">所属</dt>
+            <dd class="about-author__description">私の会社</dd>
+            <dt class="about-author__term">職業</dt>
+            <dd class="about-author__description">私の職業</dd>
+            <dt class="about-author__term">自己紹介</dt>
+            <dd class="about-author__description">自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文自己紹介文。</dd>
+          </dl>
+        </section>
+        <small class="footer-copyright">
+           &copy; 私の名前 2018
+        </small>
       </footer>
     </div>
   </body>
