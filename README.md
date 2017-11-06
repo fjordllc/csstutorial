@@ -12,3 +12,4 @@ HTML を一切変えずに CSS だけをいじって、下の画像になるべ�
 出来るところまでやったものを確認してOKだった場合、CSSファイルを渡しますので、自分のものと見比べてみてください。
 
 [](https://gist.github.com/machida/92e1cf4cf9a39ba72683)
+[](https://gist.github.com/machida/d004489247c5c84481a09706517d35b4)
