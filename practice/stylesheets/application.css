@@ -8,8 +8,17 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
   box-sizing: border-box;
 }
 
+body {
+  color: #444;
+  background-color: #aaa;
+}
+
 /* 全体を真ん中に配置 */
 .container {
   width: 980px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #666;
+  box-shadow: rgba(0, 0, 0, .4) 0 0 8px;
+  overflow: hidden; // floatを使った場合の対策
 }
