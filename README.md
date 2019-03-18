@@ -6,6 +6,7 @@ HTML を一切変えずに CSS だけをいじって、下の画像になるべ�
 
 ![default](https://cloud.githubusercontent.com/assets/168265/7669572/bcd28684-fcb4-11e4-9ecb-cc4918199039.jpg)
 
+[高解像度のキャプチャ](https://i.gyazo.com/160d9eadb8cb341474a0296b8b8dcfd1.png)
 
 多分、完全同じにするのはすごく難しいです。
 出来るところまでやったら、それを見れるようにどこかで公開した上でそのURLと共に @machida に連絡ください。
