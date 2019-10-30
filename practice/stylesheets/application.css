@@ -1,12 +1,82 @@
-/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
-html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+/*
+////////////////////////////////////////
+reset.css を読み込んで全てのスタイルをなくす
+////////////////////////////////////////
+*/
 
-/* ここにCSSを書いてデザインを入れよう */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-/* boxの高さ、幅に border-width と padding を含める */
-* {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+////////////////////////////////////////
+reset.css では足りない初期化を追加
+////////////////////////////////////////
+*/
+
+/* 全てに box-sizing: border-box; を適用 */
+*, *:before, *:after {
   box-sizing: border-box;
 }
+
+/* 画像に関する初期設定 */
+img {
+  /* 大きい画像がはみ出さないように */
+  max-width: 100%;
+  /* 画像周りの無駄なスペースができないように */
+  vertical-align: bottom;
+}
+
+/*
+////////////////////////////////////////
+初期設定
+////////////////////////////////////////
+*/
 
 body {
   color: #444;
@@ -22,3 +92,10 @@ body {
   box-shadow: rgba(0, 0, 0, .4) 0 0 8px;
   overflow: hidden; // floatを使った場合の対策
 }
+
+/*
+////////////////////////////////////////
+ここから下にCSSを書いてデザインを入れよう
+////////////////////////////////////////
+*/
+
